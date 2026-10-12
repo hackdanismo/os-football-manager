@@ -1,0 +1,33 @@
+# Rust compiled files
+/target/
+
+# Rust backup files
+**/*.rs.bk
+
+# IDE and editor settings
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local game saves
+/saves/
+/autosaves/
+
+# Local configuration
+config.local.toml
+
+# Environment variables and secrets
+.env
+.env.*
